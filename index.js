@@ -13,17 +13,15 @@ function toggleVisibility(elements, display){
     });
 }
 
-function showUserInput(){
-    radios.forEach(input => {
-            input.addEventListener("change", function(){
-            if(this.checked){
-                const label = document.querySelector(`label[for="${this.id}"]`)
-                toggleVisibility([userInputDiv], "block")
-                typeOfConversionText.textContent = `Opção selecionada: ${label.textContent}`
-            }
-        })  
-    })
-}
+radios.forEach(input => {
+  input.addEventListener("change", function () {
+    if (this.checked) {
+      const label = document.querySelector(`label[for="${this.id}"]`)
+      toggleVisibility([userInputDiv], "block")
+      typeOfConversionText.textContent = `Opção selecionada: ${label.textContent}`
+    }
+  });
+});
 
 function hideUserInput(){
     toggleVisibility([userInputDiv], "none")
