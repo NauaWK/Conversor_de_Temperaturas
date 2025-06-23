@@ -18,7 +18,7 @@ function showUserInput(){
     }
     else{
         toggleVisibility([userInputDiv], "block")
-        typeOfConversionText.textContent = label.textContent
+        typeOfConversionText.textContent += label.textContent
     }
 }
 
