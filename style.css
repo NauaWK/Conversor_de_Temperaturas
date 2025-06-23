@@ -4,11 +4,10 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
 }
 #mainContainer{
-    margin-top: 5%;
     padding: 1%;
     width: 40%;
     height: 50%;
@@ -17,4 +16,7 @@ body{
     background-color: #f0efef;
     border-radius: 1vw;
     box-shadow: 1vw 1vw 2vw hsla(0, 0%, 0%, 0.475);
+}
+#mainContainer h1{
+    color: hsla(240, 100%, 50%, 0.606);
 }
