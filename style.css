@@ -20,3 +20,6 @@ body{
 #mainContainer h1{
     color: hsla(240, 100%, 50%, 0.606);
 }
+#mainContainer form{
+    text-align: left;
+}
