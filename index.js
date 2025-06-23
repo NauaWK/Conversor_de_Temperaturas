@@ -8,7 +8,7 @@ function toggleVisibility(elements, display){
     });
 }
 function showUserInput(){
-    if(!selectedOption){
+    if !(selectedOption){
         return
     }
     else{
