@@ -21,9 +21,10 @@ body{
     color: hsla(240, 100%, 50%, 0.606);
 }
 #formDiv{
-    padding: 3%;
     background-color: #e0e0e0;
+    padding: 3%;
     width: 50%;
+    margin: 0 auto;
 }
 #mainContainer form{
     text-align: left;
