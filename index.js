@@ -11,9 +11,9 @@ function toggleVisibility(elements, display){
     });
 }
 
-radios.forEach(input => {
-  input.addEventListener("change", function () {
-    if (this.checked) {
+radios.forEach(radio => {
+  radio.addEventListener("change", function () {
+    if(this.checked){
       const label = document.querySelector(`label[for="${this.id}"]`)
       toggleVisibility([userInputDiv], "block")
       typeOfConversionText.textContent = `Opção selecionada: ${label.textContent}`
