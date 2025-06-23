@@ -2,8 +2,8 @@ const submitBtn = document.getElementById("submitBtn")
 const userInputDiv = document.getElementById("userInputDiv")
 const resetBtn = document.getElementById("resetBtn")
 const typeOfConversionText = document.getElementById("typeOfConversion")
-let selectedOption = document.querySelector('input[name="option"]:checked')
-let label = document.querySelector(`label[for="${selectedOption.id}"]`)
+let label = document.querySelector(`label[for="${radio.id}"]`)
+
 
 function toggleVisibility(elements, display){
     elements.forEach(element =>{
@@ -12,14 +12,16 @@ function toggleVisibility(elements, display){
 }
 
 function showUserInput(){
-    selectedOption = document.querySelector('input[name="option"]:checked')
-    if(!selectedOption){
-        return
-    }
-    else{
-        toggleVisibility([userInputDiv], "block")
-        typeOfConversionText.textContent += label.textContent
-    }
+    const radios = document.querySelectorAll(".option")
+    radios.forEach(input => {
+            input.addEventListener("change", function(){
+            if(this.checked){
+                const label = document.querySelector(`label[for="${this.id}"]`)
+                toggleVisibility([userInputDiv], "block")
+                typeOfConversionText.textContent = `Opção selecionada: ${label.textContent}`
+            }
+        })  
+    })
 }
 
 function hideUserInput(){
