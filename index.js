@@ -1,6 +1,5 @@
 const submitBtn = document.getElementById("submitBtn")
 const userInputDiv = document.getElementById("userInputDiv")
-const selectedOption = document.querySelector('input[name="option"]:checked');
 
 function toggleVisibility(elements, display){
     elements.forEach(element => {
@@ -8,7 +7,8 @@ function toggleVisibility(elements, display){
     });
 }
 function showUserInput(){
-    if !(selectedOption){
+    const selectedOption = document.querySelector('input[name="option"]:checked');
+    if (!selectedOption){
         return
     }
     else{
