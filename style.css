@@ -13,5 +13,5 @@ body{
     height: 30%;
     background-color: #f0efef;
     border-radius: 3vw;
-    box-shadow: 1vw 1vw 2vw #000;
+    box-shadow: 1vw 1vw 2vw hsla(0, 0%, 0%, 0.475);
 }
