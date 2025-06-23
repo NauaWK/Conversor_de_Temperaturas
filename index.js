@@ -8,5 +8,5 @@ function toggleVisibility([elements], display){
 }
 
 function showUserInput(){
-    toggleVisibility([userInputDiv], block)
+    toggleVisibility([userInputDiv], "block")
 }
