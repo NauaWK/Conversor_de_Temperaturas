@@ -18,8 +18,5 @@ function showUserInput(){
     }
 }
 function hideUserInput(){
-    selectedOption = document.querySelector('input[name="option"]:checked');
-    if (!selectedOption){
-        toggleVisibility([userInputDiv], "none")
-    }
+    toggleVisibility([userInputDiv], "none")
 }
