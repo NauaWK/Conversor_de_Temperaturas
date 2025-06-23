@@ -3,7 +3,6 @@ const userInputDiv = document.getElementById("userInputDiv")
 const resetBtn = document.getElementById("resetBtn")
 const typeOfConversionText = document.getElementById("typeOfConversion")
 const radios = document.querySelectorAll(".option")
-let label = document.querySelector(`label[for="${radio.id}"]`)
 
 function toggleVisibility(elements, display){
     elements.forEach(element =>{
