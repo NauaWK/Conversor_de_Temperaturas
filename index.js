@@ -13,7 +13,7 @@ function toggleVisibility(elements, display){
 
 function showUserInput(){
     selectedOption = document.querySelector('input[name="option"]:checked')
-    if (!selectedOption){
+    if(!selectedOption){
         return
     }
     else{
