@@ -12,6 +12,6 @@ function showUserInput(){
         return
     }
     else{
-    toggleVisibility([userInputDiv], "block")
+        toggleVisibility([userInputDiv], "block")
     }
 }
