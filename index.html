@@ -18,9 +18,13 @@
                 <input type="radio" id="input4" name="option"> Kelvin → Celsius <br>
                 <input type="radio" id="input5"  name="option"> Kelvin → Fahrenheit <br>
                 <input type="radio" id="input6" name="option"> Fahrenheit → Kelvin <br> <br>
-                <button id="submitBtn"> Enviar </button> 
+                <button id="submitBtn" onclick="showUserInput()"> Enviar </button> 
                 <input type="reset" value="Limpar" id="resetBtn">
             </form>
+        </div>
+        <div id="userInputDiv">
+            <h2>Entre com a temperatura:</h2>
+            <input type="number" value="0">
         </div>
     </div>
 </body>
