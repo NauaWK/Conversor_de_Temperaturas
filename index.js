@@ -5,8 +5,6 @@ const typeOfConversionText = document.getElementById("typeOfConversion")
 const radios = document.querySelectorAll(".option")
 let label = document.querySelector(`label[for="${radio.id}"]`)
 
-
-
 function toggleVisibility(elements, display){
     elements.forEach(element =>{
         element.style.display = display
