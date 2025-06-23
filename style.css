@@ -26,6 +26,9 @@ body{
     width: 50%;
     margin: 0 auto;
 }
+#resetBtn{
+    margin: 0 auto;
+}
 #mainContainer form{
     text-align: left;
 }
