@@ -21,6 +21,7 @@ body{
     color: hsla(240, 100%, 50%, 0.606);
 }
 #formDiv{
+    padding: 1%;
     background-color: #e0e0e0;
     width: 50%;
 }
