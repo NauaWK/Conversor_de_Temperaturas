@@ -27,7 +27,11 @@ body{
     margin: 0 auto;
 }
 #resetBtn{
-    
+    border: none;
+    background-color: hsla(0, 100%, 50%, 0.591);
+    color: #fff;
+    padding: 1%;
+    border-radius: 1vw;
     margin: 0 auto;
 }
 #mainContainer form{
