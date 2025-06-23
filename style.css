@@ -44,3 +44,7 @@ body{
 #mainContainer form{
     text-align: left;
 }
+#userInputDiv{
+    margin: 5%;
+    display: none;
+}
