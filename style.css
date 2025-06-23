@@ -20,6 +20,11 @@ body{
 #mainContainer h1{
     color: hsla(240, 100%, 50%, 0.606);
 }
+#formDiv{
+    background-color: #e0e0e0;
+    width: 50%;
+    height: 30%;
+}
 #mainContainer form{
     text-align: left;
 }
