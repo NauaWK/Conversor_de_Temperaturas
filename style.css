@@ -8,6 +8,7 @@ body{
     justify-content: center;
 }
 #mainContainer{
+    margin-top: 5%;
     padding: 1%;
     width: 40%;
     height: 50%;
