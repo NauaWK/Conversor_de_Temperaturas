@@ -23,9 +23,16 @@ body{
 }
 #formDiv{
     background-color: #e0e0e0;
-    padding: 3%;
+    padding: 2%;
     width: 50%;
     margin: 0 auto;
+}
+#submitBtn{
+    border: none;
+    background-color: #f0efef;
+    padding: 3%;
+    border-radius: 0.5vw;
+    cursor: pointer;
 }
 #resetBtn{
     border: none;
