@@ -4,10 +4,11 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
 }
 #mainContainer{
+    margin-top: 5%;
     padding: 3%;
     width: 40%;
     height: 60%;
