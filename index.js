@@ -48,7 +48,7 @@ function convertTemperature() {
   const inputValue = parseFloat(userInput.value);
   const radioSelected = document.querySelector('input.option:checked');
 
-  if (!inputValue || !radioSelected) 
+  if (NaN(inputValue) || !radioSelected) 
     return;
 
   switch (radioSelected.id) {
