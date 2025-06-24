@@ -4,13 +4,12 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
 }
 #mainContainer{
-    margin-top: 3%;
     padding: 2%;
-    width: 40%;
+    width: 50%;
     height: max-content;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -22,25 +21,43 @@ body{
     margin-bottom: 5%;
     color: hsla(0, 100%, 50%, 0.606);
 }
+#typeOfConversionText{
+    font-weight: normal;
+}
+#resultInfos{
+    font-size: 1.2em;
+    font-weight: bold;
+    display: none;
+}
 #formDiv{
     background-color: #e0e0e0;
     padding: 3%;
     width: 50%;
     margin: 0 auto;
 }
-#submitBtn{
+.buttonStyle{
+    background-color: #e0e0e0;
     border: none;
-    background-color: #f0efef;
     padding: 3%;
+    font-size: 1rem;
     border-radius: 0.5vw;
     cursor: pointer;
 }
-#resetBtn{
-    border: none;
+.buttonStyle:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+.buttonStyle:active{
+    background-color: hsl(0, 0%, 75%);
+}
+
+#resetForm{
     background-color: #f0efef;
-    padding: 3%;
-    border-radius: 0.5vw;
-    cursor: pointer;
+}
+#resetForm:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+#resetForm:active{
+    background-color: hsl(0, 0%, 75%);
 }
 #mainContainer form{
     text-align: left;
@@ -48,4 +65,26 @@ body{
 #userInputDiv{
     margin: 5%;
     display: none;
+}
+#userInputDiv form{
+    text-align: center;
+}
+#userInput{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 2%;
+}
+#resultDiv{
+    display: none;
+    width: 70%;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: #fff;
+}
+#resultDiv h2{
+    color: hsla(240, 100%, 50%, 0.624);
+}
+#resultDiv h3{
+    font-size: 2rem;
 }
